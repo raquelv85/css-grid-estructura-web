@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20% auto 20%;
+    grid-gap: 5px;
+    
+}
+
+.item {
+    background: deeppink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+    grid-column: span 12;
+    background-color: lightblue;
+}
+
+.item2{
+
+    grid-column: span 4;
+    background-color: lightgray;
+}
+
+.item3{
+    grid-column: span 8;
+    background-color: lightsteelblue;
+}
+
+.item4{
+    grid-column: span 12;
+    background-color: lightpink;
+}
